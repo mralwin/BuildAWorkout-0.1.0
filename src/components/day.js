@@ -45,7 +45,7 @@ class Day extends React.Component {
 
         {Object.keys(this.props.day[`${this.props.index}`].exercises).map(
           key => (
-            <Test
+            <EditExercise
               key={key}
               index={key}
               day={this.props.index}

@@ -5,7 +5,6 @@ class EditExercise extends React.Component {
     const updatedExercise = event.currentTarget.value;
 
     this.props.updateExercise(
-      this.props.day,
       this.props.index,
       event.currentTarget.name,
       updatedExercise
@@ -21,7 +20,7 @@ class EditExercise extends React.Component {
     const props = this.props;
     return (
       <div>
-        <h2>i am edit exercise</h2>
+        <h2>i am a test component</h2>
         <input
           type="text"
           name="name"
